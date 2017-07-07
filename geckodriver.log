@@ -1,0 +1,15 @@
+1495879980467	geckodriver	INFO	Listening on 127.0.0.1:64726
+1495879981538	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1495879984327	Marionette	INFO	Listening on port 64736
+1495879984401	Marionette	WARN	TLS certificate errors will be ignored for this session
+2017-05-27 18:13:04.846 plugin-container[6800:530401] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9b3f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-05-27 18:13:04.849 plugin-container[6800:530401] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9d23, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-05-27 18:13:04.849 plugin-container[6800:530401] void __CFPasteboardSetup() : Failed to allocate communication port for com.apple.CFPasteboardClient; this is likely due to sandbox restrictions
+1495880036303	Marionette	INFO	New connections will no longer be accepted
+console.error: 
+  Could not write session state file 
+  Message: Unix error 2 during operation open on file /var/folders/wm/jpy62gmn0m17pghk1bdt2gtc0000gn/T/rust_mozprofile.Y2R5jdXKD3TJ/sessionstore.js.tmp (No such file or directory)
+  
+[Child 6800] WARNING: pipe error: Broken pipe: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 702
